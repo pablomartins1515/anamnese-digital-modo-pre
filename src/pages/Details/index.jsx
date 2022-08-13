@@ -1,5 +1,5 @@
 
-import { Container, Links, Content } from "./styles";
+import { Container, Links, Content, Logout } from "./styles";
 
 import { Tag } from "../../compontens/Tag";
 import { Button } from "../../compontens/Button";
@@ -51,7 +51,9 @@ export function Details() {
 
                     </Section>
 
-                    <Button title="Voltar" />
+                    <Logout to="/">
+                         <Button title="Voltar" />
+                    </Logout>
                     
                 </Content>          
             </main>            

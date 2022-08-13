@@ -37,7 +37,7 @@ export function SignUp() {
                 </Input>
 
                 <div>  
-                        <Logout to="../">
+                        <Logout to="../home">
                             <Button2 title="Criar Conta"/>
                         </Logout >                                                                
                 </div>

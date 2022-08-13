@@ -1,6 +1,5 @@
 
-import { Container, Form, FormH } from "./styles";
-import { Link } from "react-router-dom";
+import { Container, Form, FormH, } from "./styles";
 
 import { HeaderGreen } from "../../compontens/HeaderGreen";
 import { Input } from  "../../compontens/Input";
@@ -20,10 +19,12 @@ export function New() {
 
            <main>
                 <FormH>
-                    <header>
-                        <h1>Avaliação Pré - Operatória</h1>
-                        <Link to="/">Voltar</Link>
-                    </header>
+                    
+                        <header>
+                            <h1>Avaliação Pré - Operatória</h1>
+                            <Link to="../">Voltar</Link>
+                        </header>                    
+                    
                 </FormH>
 
                 <Form>
@@ -46,7 +47,6 @@ export function New() {
                 </Form>
                                 
             </main>
-
 
                    
         </Container>       

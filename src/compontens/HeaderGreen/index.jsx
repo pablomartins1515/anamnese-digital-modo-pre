@@ -14,7 +14,7 @@ export function HeaderGreen () {
                 </div>                 
             </Profile>
 
-            <Logout to="../signin">
+            <Logout to="../">
                 <RiShutDownLine />
             </Logout >                           
         </Container>
