@@ -20,7 +20,7 @@ export function Details() {
                     <ButtonTextRed title="Excluir nota"/> 
                     
                         <h1>
-                            Introdução ao React
+                            Diagnóstico pré-operatório
                         </h1>
                         
                         <p>
@@ -38,16 +38,16 @@ export function Details() {
                         </p>
 
                 
-                    <Section title='Links Úteis'>
+                    <Section title='Dados Pessoais'>
                         <Links>
-                            <li><a href="#">https://www.rocketset.com.br/</a></li>
-                            <li><a href="#">https://www.rocketset.com.br/</a></li>                    
+                            <li><a href="#">Endereço Completo: <br/>Rua José Do Egito nº82 - Centro </a></li>
+                            <li><a href="#">Contato: <br/> (99) 98457 - 4733</a></li>                    
                         </Links>
                     </Section>
 
-                    <Section title="Marcadores">
-                        <Tag title="Express" />
-                        <Tag title="NodeJs" />
+                    <Section title="Filtros">
+                        <Tag title="Febre Alta" />
+                        <Tag title="Dores Musculares" />
 
                     </Section>
 
