@@ -26,23 +26,21 @@ export const Container = styled.div`
 export const FormH = styled.form`
      max-width: 550px;
      margin: 32px  auto;
-     
-    > header {
-
-            display: flex;
-            flex-direction: center;
-        
-        
-            justify-content: space-between;
-        
-            margin-bottom: 36px;
-        
-            a {
-            font-size: 20px;
-            color: ${({ theme }) => theme.COLORS.WHITE2};
-            }
-        }
-` 
+    
+     > header { display: flex;
+              flex-direction: center;
+          
+          
+              justify-content: space-between;
+          
+              margin-bottom: 36px;
+          
+              a {
+              font-size: 20px;
+              color: ${({ theme }) => theme.COLORS.WHITE2};
+            }     
+          }
+`; 
 
 export const Form = styled.form`
   max-width: 550px;
@@ -50,4 +48,5 @@ export const Form = styled.form`
 
   
 `;
+
 

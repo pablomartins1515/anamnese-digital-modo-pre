@@ -42,7 +42,7 @@ export function SignUp() {
                         </Logout >                                                                
                 </div>
 
-            <BackLogIn to="/signin">
+            <BackLogIn to="/">
                  Voltar para o login
             </BackLogIn>                 
 

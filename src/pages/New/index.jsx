@@ -5,9 +5,10 @@ import { HeaderGreen } from "../../compontens/HeaderGreen";
 import { Input } from  "../../compontens/Input";
 import { Textarea } from  "../../compontens/Textarea";
 import { NoteItem } from  "../../compontens/NoteItem";
-import { Section } from  "../../compontens/Section";
 import { Section2 } from  "../../compontens/Section2";
 import { Button } from "../../compontens/Button";
+import { Link } from "react-router-dom";
+
 
 
 
@@ -18,12 +19,12 @@ export function New() {
            <HeaderGreen />
 
            <main>
-                <FormH>
-                    
-                        <header>
-                            <h1>Avaliação Pré - Operatória</h1>
-                            <Link to="../">Voltar</Link>
-                        </header>                    
+            
+                <FormH>                             
+                    <header>
+                        <h1>Avaliação Pré - Operatória</h1>
+                        <Link to="../home">Voltar</Link>  
+                    </header>                                                      
                     
                 </FormH>
 
@@ -52,3 +53,4 @@ export function New() {
         </Container>       
     );
 }
+

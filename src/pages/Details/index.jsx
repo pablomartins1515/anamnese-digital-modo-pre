@@ -51,7 +51,7 @@ export function Details() {
 
                     </Section>
 
-                    <Logout to="/">
+                    <Logout to="/home">
                          <Button title="Voltar" />
                     </Logout>
                     
