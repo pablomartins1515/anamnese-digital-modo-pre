@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Container = styled.header`
     grid-area: header;
+    background: #008B45;
 
     height: 105px;
     width: 100%;
@@ -27,7 +28,7 @@ export const Profile = styled(Link)`
     > img {
         width: 56px;
         height: 56px;
-        border-radius: 50% ;
+        border-radius: 50%;
     }
 
     > div {
@@ -35,13 +36,13 @@ export const Profile = styled(Link)`
         flex-direction: column;
         margin-left: 16px;
         line-height: 24px;
-        color: #008B45
+        color: #FFF
         
     }
 
     span {
         font-size: 14px;
-        color: gray;
+        color: #F4EDE8;
     
     strong {
         font-size: 18px;

@@ -5,6 +5,7 @@ import styled from "styled-components";
 export const Container = styled.div`
   width: 100%;
   height: 100vh;
+  background-color: #008B45;
   display: grid;
   grid-template-rows: 105px auto;
   grid-template-areas:
@@ -38,14 +39,14 @@ export const FormH = styled.form`
         
             a {
             font-size: 20px;
-            color: ${({ theme }) => theme.COLORS.GRAY_100};
+            color: ${({ theme }) => theme.COLORS.WHITE2};
             }
         }
 ` 
 
 export const Form = styled.form`
   max-width: 550px;
-  margin: 38px auto;
+  margin: 38px auto;  
 
   
 `;

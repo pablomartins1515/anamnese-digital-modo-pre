@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundImg from '../../assets/background.png';
+import backgroundImg from '../../assets/bg-anamnese.png';
 import { Link } from "react-router-dom";
 
 
@@ -44,6 +44,7 @@ export const Form = styled.form`
         color: ${({ theme }) => theme.COLORS.WHITE};
 
     }
+
 `;
 
 export const Background = styled.div`
@@ -55,5 +56,17 @@ export const Background = styled.div`
 
 
 export const BackLogIn = styled(Link)`
-    
+    margin: 16px;
+`;
+
+
+export const Logout = styled(Link)`
+    border: 0;
+    background: 0;
+    margin: 28px;
+
+    >svg {
+        color: ${({ theme }) => theme.COLORS.GRAY_100};
+        font-size: 36px;
+    }
 `;

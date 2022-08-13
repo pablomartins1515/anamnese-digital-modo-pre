@@ -5,7 +5,7 @@ import { Tag } from "../../compontens/Tag";
 import { Button } from "../../compontens/Button";
 import { Header } from "../../compontens/Header";
 import { Section } from "../../compontens/Section";
-import { ButtonText } from "../../compontens/ButtonText";
+import { ButtonTextRed } from "../../compontens/ButtonTextRed";
 
 
 
@@ -17,19 +17,24 @@ export function Details() {
 
             <main>
                 <Content>              
-                    <ButtonText title="Excluir nota"/> 
+                    <ButtonTextRed title="Excluir nota"/> 
                     
                         <h1>
                             Introdução ao React
                         </h1>
                         
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quam illo rem 
-                            itaque ipsam sequi consequatur cumque veritatis assumenda dolor alias tempora 
-                            molestias maxime autem, consequuntur uod praesentium! Iure, beatae. Lorem ipsum
-                            dolor sit amet consectetur adipisicing elit. Saepe quam illo rem itaque ipsam 
-                            sequi consequatur cumque veritatis assumenda dolor alias tempora molestias 
-                            maxime autem, consequuntur quod praesentium! Iure, beatae.
+                        Atesto que o paciente este paciente se apresenta  com:<br/>
+
+                        a ) baixo risco de sofrer complicações cardiovasculares pelo porte do procedimento de cirurgia ortopédica de membro superior ( Menos de 1%). Apenas com febre alta e dores musculares que não prejudicam o andamento da futura operação.<br/>
+
+                        b) Exames complementares:<br/>
+                        Eletrocardiograma atual: Ritmo sinusal, dentro dos limites de normalidade para a idade.
+                        Demais exames enviados sem alterações significativas.
+
+                        Recomendações: 
+                        Seguir a rotina normal do serviço e dieta de alimentação regular.
+
                         </p>
 
                 
@@ -47,7 +52,6 @@ export function Details() {
                     </Section>
 
                     <Button title="Voltar" />
-                    
                     
                 </Content>          
             </main>            

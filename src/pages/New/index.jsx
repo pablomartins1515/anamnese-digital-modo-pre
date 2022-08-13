@@ -2,11 +2,12 @@
 import { Container, Form, FormH } from "./styles";
 import { Link } from "react-router-dom";
 
-import { Header } from "../../compontens/Header";
+import { HeaderGreen } from "../../compontens/HeaderGreen";
 import { Input } from  "../../compontens/Input";
 import { Textarea } from  "../../compontens/Textarea";
 import { NoteItem } from  "../../compontens/NoteItem";
 import { Section } from  "../../compontens/Section";
+import { Section2 } from  "../../compontens/Section2";
 import { Button } from "../../compontens/Button";
 
 
@@ -15,31 +16,31 @@ import { Button } from "../../compontens/Button";
 export function New() {
     return (
         <Container>
-           <Header />
+           <HeaderGreen />
 
            <main>
                 <FormH>
                     <header>
-                        <h1>Criar nota</h1>
+                        <h1>Avaliação Pré - Operatória</h1>
                         <Link to="/">Voltar</Link>
                     </header>
                 </FormH>
 
                 <Form>
-                    <Input placeholder='Título' />
-                    <Textarea  placeholder='Observações'/>
+                    <Input placeholder='Nome do Paciente' />
+                    <Textarea  placeholder='Diagnóstico'/>
 
-                    <Section title="Links úteis">
-                        <NoteItem value="https://rocketseat.com.br"/>
-                        <NoteItem isNew  placeholder="Novo Link"/>  
-                    </Section>
+                    <Section2 title="Dados Pessoais">
+                        <NoteItem value="Telefone (99) 98457 - 4733"/>
+                        <NoteItem isNew  placeholder="Adcionar informação complementar"/>  
+                    </Section2>
 
-                    <Section title="Marcadores">
+                    <Section2 title="Filtro de Enfermidades">
                         <div className="tags">
-                            <NoteItem value="react"/>
-                            <NoteItem isNew  placeholder=" Nova tag"/>
+                            <NoteItem value="Febre"/>
+                            <NoteItem isNew  placeholder=" Novo Filtro"/>
                         </div>                          
-                    </Section>
+                    </Section2>
                     
                     <Button title='Salvar'/>
                 </Form>

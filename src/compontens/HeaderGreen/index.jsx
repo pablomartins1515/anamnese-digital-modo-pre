@@ -1,7 +1,7 @@
 import { RiShutDownLine } from "react-icons/ri";
 import { Container, Logout, Profile } from "./styles";
 
-export function Header () {
+export function HeaderGreen () {
     return (
         <Container>
             <Profile to='../profile'>

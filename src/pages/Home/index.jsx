@@ -5,7 +5,9 @@ import { Header } from "../../compontens/Header";
 import { ButtonText } from "../../compontens/ButtonText";
 import { Note } from "../../compontens/Note";
 import { Input } from "../../compontens/Input";
-import { Section} from "../../compontens/Section"
+import { Section} from "../../compontens/Section";
+
+
 
 
 export function Home() {
@@ -18,7 +20,7 @@ export function Home() {
             <Header />
 
             < Menu>
-                <li><ButtonText title="Todos" isActive></ButtonText></li>
+                <li><ButtonText title ="Todos" isActive></ButtonText></li>
                 <li><ButtonText title="Pressão Arterial"></ButtonText></li>
                 <li><ButtonText title="Febre Alta"></ButtonText></li>
                 <li><ButtonText title="Dores Musculares"></ButtonText></li>
@@ -28,7 +30,7 @@ export function Home() {
                 <Input placeholder='Pesquisar pelo título' icon={FiSearch}/>
             </Search>
 
-            <Content>
+            <Content >
                 <Section title="Nome dos Pacientes">
                     <Note data={{
                         title: 'Pedro de Sousa Martins',
@@ -53,7 +55,7 @@ export function Home() {
 
             <NewNote to='./new'>
                 <FiPlus/>
-                Criar Nota
+                Adicionar
 
             </NewNote>
 

@@ -50,8 +50,12 @@ export const Container = styled.div`
         > li {
             margin-bottom: 24px;
             
+            > div {
+                font: bold;
+                font-size: 24px;               
+            }   
         }
-
+        
     `;
 
     export const Search = styled.div`
@@ -61,8 +65,9 @@ export const Container = styled.div`
 
     export const Content = styled.div`
         grid-area: content;
-        padding: 0 64px;
+        padding: 24px 64px;
         overflow-y: auto;
+             
     `;
 
     export const NewNote = styled(Link)`

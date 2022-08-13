@@ -1,5 +1,6 @@
 import styled from 'styled-components';
-import backgroundImg from '../../assets/background.png';
+import backgroundImg from '../../assets/medico.png';
+
 
 export const Container = styled.div`
     height: 100vh;
@@ -10,7 +11,6 @@ export const Container = styled.div`
     background-color: #008B45;
 
     `;
-
 
 export const Form = styled.form`
     padding: 0 136px;
@@ -51,3 +51,4 @@ export const Background = styled.div`
     opacity: 90%;
     
 `;
+

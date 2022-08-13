@@ -4,12 +4,15 @@ import styled from 'styled-components';
 export const Container = styled.div`
     width: 100%;
     height: 124px;
+    background: #E5E5E5;
+    background-color: #E5E5E5;
+    color: #E5E5E5;
     
     > header {
         width: 100%;
         height: 144px;
 
-        background: ${({ theme }) => theme.COLORS.BACKGROUND_900};
+        background: #008B45;
         
         display: flex;
         align-items: center;
@@ -17,14 +20,13 @@ export const Container = styled.div`
         padding: 0 124px;
 
         svg {
-            color: ${({ theme }) => theme.COLORS.GRAY_100};
+            color: ${({ theme }) => theme.COLORS.WHITE2};
             font-size: 24px;
         }
 
     }
 
     `;
-
 
 
 export const Form = styled.form`
@@ -49,7 +51,7 @@ export const Avatar = styled.div`
         width: 48px;
         height: 48px;
         
-        background: ${({ theme }) => theme.COLORS.ORANGE};
+        background: #1E90FF;
         border-radius: 50%;
 
         display: flex;
@@ -69,7 +71,7 @@ export const Avatar = styled.div`
         svg {
             width: 20px;
             height: 20px;
-            color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+            color: ${({ theme }) => theme.COLORS.WHITE2};
         }
     }
 `;

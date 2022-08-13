@@ -1,13 +1,8 @@
-
-import { Container, Form, Background, BackLogIn } from "./styles";
-
+import { Container, Form, Background, BackLogIn, Logout } from "./styles";
 
 import { FiMail, FiLock, FiUser } from "react-icons/fi";
 import { Input } from '../../compontens/Input';
-import { Button } from "../../compontens/Button";
-
-
-
+import { Button2 } from "../../compontens/Button2";
 
 export function SignUp() {
     return (
@@ -16,7 +11,7 @@ export function SignUp() {
             <Background />    
             
             <Form>
-                <h1>Anamnese Digital</h1>
+            <h1>Anamnese Digital</h1>
                 <p>Aplicação para gerenciar o estado clínico dos Municípios</p>
                 <h2>Crie sua conta</h2>
 
@@ -41,13 +36,15 @@ export function SignUp() {
                 >
                 </Input>
 
-                
-                <Button  title='Criar conta'></Button>               
-                  
+                <div>  
+                        <Logout to="../">
+                            <Button2 title="Criar Conta"/>
+                        </Logout >                                                                
+                </div>
 
-                <BackLogIn to="/signin">
-                    Voltar para o login
-                </BackLogIn>
+            <BackLogIn to="/signin">
+                 Voltar para o login
+            </BackLogIn>                 
 
             </Form>
 

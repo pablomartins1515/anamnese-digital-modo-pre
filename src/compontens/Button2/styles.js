@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from "react-router-dom";
 
 
 export const Container = styled.button`
@@ -17,4 +18,6 @@ export const Container = styled.button`
         opacity: 0.5;
     }
 `;
+
+export const Teste = styled(Link)``;
 

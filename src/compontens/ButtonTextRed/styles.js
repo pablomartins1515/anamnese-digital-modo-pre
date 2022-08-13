@@ -1,10 +1,9 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom";
 
 export const Container = styled.button`
     background: none;
 
-    color: ${({ theme, isActive }) => isActive ? theme.COLORS.ORANGE : theme.COLORS.WHITE};       
+    color: ${({ theme, isActive }) => isActive ? theme.COLORS.ORANGE : theme.COLORS.RED};       
 
     border: none;   
 

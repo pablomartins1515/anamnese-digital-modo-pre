@@ -16,6 +16,8 @@ export const Container = styled.div`
             padding: 64x 0;
 
         }
+
+    
 `;
 
 
@@ -24,7 +26,7 @@ export const Links = styled.ul`
         margin-top: 12px;
 
         > a {
-            color: ${({ theme }) => theme.COLORS.WHITE};
+            color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
         
         
@@ -48,13 +50,15 @@ export const Content = styled.div`
      h1{
         font-size: 36px;
         font-weight: 500;
-        padding-top: 0px;
+        padding-top: 0px;        
+        color: ${({ theme }) => theme.COLORS.BACKGROUND_700};    
      }
 
      p {
         font-size: 16px;
         margin-top: 16px;
         text-align: justify;
+        color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
      }
     
 `
